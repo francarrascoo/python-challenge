@@ -6,11 +6,11 @@ Este proyecto realiza la importación y análisis básico de datos de ventas de 
 
 ## Contenido
 
-1. [Importación de Datos](#importación-de-datos)  
-2. [Análisis de Facturación](#análisis-de-facturación)  
-3. [Ventas por Categoría](#ventas-por-categoría)  
-4. [Calificación Promedio](#calificación-promedio)  
-5. [Productos Más y Menos Vendidos](#productos-más-y-menos-vendidos)  
+1. [Importación de datos](#importación-de-datos)  
+2. [Análisis de facturación](#análisis-de-facturación)  
+3. [Ventas por categoría](#ventas-por-categoría)  
+4. [Calificación promedio](#calificación-promedio)  
+5. [Productos más y menos vendidos](#productos-más-y-menos-vendidos)  
 
 ---
 
