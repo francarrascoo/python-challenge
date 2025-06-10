@@ -35,6 +35,8 @@ tienda4 = pd.read_csv(url4)
 
 ## Análisis de facturación
 
+Calcula la suma total de precios vendidos por tienda.
+
 ```python
 total_tienda1 = tienda1["Precio"].sum()
 print(f"Ingreso total tienda 1: {total_tienda1}")
@@ -47,3 +49,35 @@ print(f"Ingreso total tienda 3: {total_tienda3}")
 
 total_tienda4 = tienda4["Precio"].sum()
 print(f"Ingreso total tienda 4: {total_tienda4}")
+```
+---
+
+## Ventas por categoría
+
+Número de ventas agrupadas por categoría de producto para cada tienda.
+
+```python
+ventas_categoria_tienda1 = tienda1.groupby("Categoría del Producto")["Producto"].count()
+print(f"Ventas por categoría Tienda 1:\n{ventas_categoria_tienda1}")
+
+ventas_categoria_tienda2 = tienda2.groupby("Categoría del Producto")["Producto"].count()
+print(f"Ventas por categoría Tienda 2:\n{ventas_categoria_tienda2}")
+
+ventas_categoria_tienda3 = tienda3.groupby("Categoría del Producto")["Producto"].count()
+print(f"Ventas por categoría Tienda 3:\n{ventas_categoria_tienda3}")
+
+ventas_categoria_tienda4 = tienda4.groupby("Categoría del Producto")["Producto"].count()
+print(f"Ventas por categoría Tienda 4:\n{ventas_categoria_tienda4}")
+```
+---
+
+## Calificación promedio
+
+Con los datos de calificaciones de productos o servicios, se calcula el promedio para evaluar la satisfacción general de los clientes en cada tienda, lo que puede ayudar a identificar áreas de mejora.
+
+---
+## Productos Más y Menos Vendidos
+
+Se identifican los productos con mayores y menores cantidades vendidas para conocer cuáles son los artículos más populares y aquellos que requieren estrategias para impulsar su venta.
+
+---
