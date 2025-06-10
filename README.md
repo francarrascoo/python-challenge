@@ -54,21 +54,7 @@ print(f"Ingreso total tienda 4: {total_tienda4}")
 
 ## Ventas por categoría
 
-Número de ventas agrupadas por categoría de producto para cada tienda.
-
-```python
-ventas_categoria_tienda1 = tienda1.groupby("Categoría del Producto")["Producto"].count()
-print(f"Ventas por categoría Tienda 1:\n{ventas_categoria_tienda1}")
-
-ventas_categoria_tienda2 = tienda2.groupby("Categoría del Producto")["Producto"].count()
-print(f"Ventas por categoría Tienda 2:\n{ventas_categoria_tienda2}")
-
-ventas_categoria_tienda3 = tienda3.groupby("Categoría del Producto")["Producto"].count()
-print(f"Ventas por categoría Tienda 3:\n{ventas_categoria_tienda3}")
-
-ventas_categoria_tienda4 = tienda4.groupby("Categoría del Producto")["Producto"].count()
-print(f"Ventas por categoría Tienda 4:\n{ventas_categoria_tienda4}")
-```
+Se realiza un análisis agrupando los productos vendidos según su categoría, para entender cuáles son las categorías con mayor volumen de ventas y su aporte a los ingresos totales.
 ---
 
 ## Calificación promedio
