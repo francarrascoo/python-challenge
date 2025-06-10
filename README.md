@@ -30,7 +30,7 @@ tienda1 = pd.read_csv(url1)
 tienda2 = pd.read_csv(url2)
 tienda3 = pd.read_csv(url3)
 tienda4 = pd.read_csv(url4)
-
+```
 ---
 
 ## Análisis de facturación
