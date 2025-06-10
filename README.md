@@ -37,6 +37,8 @@ tienda4 = pd.read_csv(url4)
 
 Calcula la suma total de precios vendidos por tienda.
 
+Ejemplo:
+
 ```python
 total_tienda1 = tienda1["Precio"].sum()
 print(f"Ingreso total tienda 1: {total_tienda1}")
@@ -55,6 +57,7 @@ print(f"Ingreso total tienda 4: {total_tienda4}")
 ## Ventas por categoría
 
 Se realiza un análisis agrupando los productos vendidos según su categoría, para entender cuáles son las categorías con mayor volumen de ventas y su aporte a los ingresos totales.
+
 ---
 
 ## Calificación promedio
